@@ -1,6 +1,7 @@
 Error.stackTraceLimit = Infinity;
 
 require('zone.js/dist/zone');
+require('core-js/es7/reflect');
 
 var appContext = require.context('../src', true, /\.spec\.ts/);
 

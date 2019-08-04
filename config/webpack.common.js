@@ -38,7 +38,7 @@ module.exports = {
       { 
         test: /\.(sa|sc|c)ss$/, 
         include: path.resolve('src/app'),
-        loaders: ['raw-loader', 'sass-loader'] 
+        loaders: ['to-string-loader', 'css-loader', 'sass-loader'] 
       },
       {
         test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/,

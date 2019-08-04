@@ -19,7 +19,7 @@ module.exports = {
       },      
       { 
         test: /\.(sa|sc|c)ss$/, 
-        loader: 'raw-loader'
+        loaders: ['to-string-loader', 'css-loader', 'sass-loader']
       },
       {
         test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/,
