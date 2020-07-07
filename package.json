@@ -37,7 +37,7 @@
     "awesome-typescript-loader": "^5.2.1",
     "copy-webpack-plugin": "^5.0.4",
     "css-loader": "^3.1.0",
-    "electron": "^6.0.0",
+    "electron": "^9.1.0",
     "electron-builder": "^21.2.0",
     "file-loader": "^4.1.0",
     "html-loader": "^0.5.5",
